@@ -1,11 +1,13 @@
 import React from 'react';
-import './App.css';
+import Login from './pages/Login';
+import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
   return (
-    <div className="App">
-      <h1>React Default Configs</h1>
-    </div>
+    <>
+      <Login />
+      <GlobalStyles />
+    </>
   );
 }
 
